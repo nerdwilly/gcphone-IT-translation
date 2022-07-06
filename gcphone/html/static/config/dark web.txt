@@ -1,0 +1,6 @@
+{
+  "name": "Dark Web",
+  "en_US__name": "Dark Web",
+  "icons": "/html/static/img/icons_app/reddit.png",
+  "routeName": "tchat"
+},

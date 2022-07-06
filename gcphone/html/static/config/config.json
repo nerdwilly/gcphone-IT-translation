@@ -1,0 +1,286 @@
+{
+  "reseau": "Energy",
+  "warningMessageCount": 250,
+  "themeColor": "#007aff",
+  "themeColorTitle": "#f7f7f7",
+  "colors": [
+    "#EF5350",
+    "#EC407A",
+    "#AB47BC",
+    "#7E57C2",
+    "#5C6BC0",
+    "#42A5F5",
+    "#29B6F6",
+    "#26C6DA",
+    "#26A69A",
+    "#66BB6A",
+    "#9CCC65",
+    "#D4E157",
+    "#FFCA28",
+    "#FFA726",
+    "#FF7043",
+    "#8D6E63",
+    "#78909C"
+  ],
+
+  "useFormatNumberFrance": true,
+
+  "useWebRTCVocal": false,
+  "RTCConfig": {
+    "iceServers": [{
+      "urls": ["turn:barrax.needrp.net"],
+      "username": "gcphone",
+      "credential": "gcphone"
+    }]
+  },
+
+  "//": "REQUIRE https://github.com/citizenfx/screenshot-basic or set false",
+  "enableTakePhoto": true,
+  "fileUploadService_Url": "https://wew.wtf/upload.php",
+  "fileUploadService_Field": "files[]",
+
+  "background": {
+    "White desert": "back001.jpg",
+    "Palms": "back002.jpg",
+    "Energy Default": "back003.jpg",
+    "Route 66": "color.jpg",
+    "Tokyo Neon": "humo.jpg",
+    "Dark planet": "iluminacion.jpg",
+    "AstroNeon": "neon.jpg",
+    "Illuminated Planet": "oscuridad.jpg",
+    "Spiaggia": "playa.jpg",
+    "Winter landscape": "paisajes.jpg",
+    "Tokio neon": "tokio.jpg",
+    "Custom URL": "URL"
+  },
+  "background_default": {
+    "label": "Energy Default",
+    "value": "back003.jpg"
+  },
+
+  "coque": {
+    "Grigia": "grey.png",
+    "Rosa Salmone": "pink.png",
+    "Rossa": "red.png",
+    "Verde Pastello": "s8.png",
+    "Celeste": "blue.png",
+    "Senza Cover": "no_cover.png"
+  },
+
+  "sonido": {
+    "Astronomia": "ring.ogg",
+    "Safaera": "safaera.ogg",
+    "Bella Ciao": "bella_ciao.ogg",
+    "Casa Papel": "casa_papel.ogg",
+    "Iphone 11": "iphone_11.ogg",
+    "Tusa": "tusa.ogg",
+    "XXXTentacion": "xtentacion.ogg"
+  },
+
+  "coque_default": {
+    "label": "Grigia",
+    "value": "grey.png"
+  },
+
+  "sonido_default": {
+    "label": "Casa Papel",
+    "value": "casa_papel.ogg"
+  },
+
+
+  "serviceCall": [{
+      "display": "Polizia",
+      "icon": "/html/static/img/icons_app/policia.png",
+      "subMenu": [{
+          "title": "Invia Un Messaggio",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "police"
+          }
+        }
+      ]
+    }
+],
+
+  "apps": [{
+      "name": "Twitter",
+      "en_US__name": "Twitter",
+      "icons": "/html/static/img/icons_app/twitter.png",
+      "routeName": "twitter.splash",
+      "inHomePage": false
+    },
+    {
+      "name": "Telefono",
+      "en_US__name": "Telefono",
+      "icons": "/html/static/img/icons_app/call.png",
+      "routeName": "appels",
+      "inHomePage": true
+    },       
+    {
+      "name": "Contatti",
+      "en_US__name": "Contatti",
+      "icons": "/html/static/img/icons_app/contacts.png",
+      "routeName": "contacts",
+      "inHomePage": false
+    },
+    {
+      "name": "Messaggi",
+      "en_US__name": "Messaggi",
+      "icons": "/html/static/img/icons_app/sms.png",
+      "routeName": "messages",
+      "inHomePage": true,
+      "puceRef": "nbMessagesUnread"
+    },
+    {
+      "name": "Impostazioni",
+      "en_US__name": "Impostazioni",
+      "icons": "/html/static/img/icons_app/settings.png",
+      "routeName": "parametre",
+      "inHomePage": false
+    },
+    
+    {
+      "name": "Banca",
+      "en_US__name": "Banca",
+      "icons": "/html/static/img/icons_app/banco.png",
+      "routeName": "bank",
+      "inHomePage": false
+    },
+    {
+      "name": "Fotocamera",
+      "en_US__name": "Fotocamera",
+      "icons": "/html/static/img/icons_app/photo.png",
+      "routeName": "photo"
+    },
+    {
+      "name": "Note",
+      "en_US__name": "Note ",
+      "routeName": "notes",
+      "icons": "/html/static/img/icons_app/notes.png"
+      
+    }
+  ],
+  "defaultLanguage": "en_US",
+  "language": {
+    "en_US": {
+      "NAME": "Italiano",
+      "PHONE_WARNING_MESSAGE": "Momenat",
+      "PHONE_WARNING_MESSAGE_MESS": "Poruke",
+      "CONFIRM": "Conferma",
+      "CANCEL": "Annulla",
+      "APP_MESSAGE_MESS_NUMBER": "Broj",
+      "APP_CONFIG_TITLE": "Impostazioni",
+      "APP_CONFIG_MY_MUNBER": "Numero Di Telefono",
+      "APP_CONFIG_WALLPAPER": "Sfondo",
+      "APP_CONFIG_CASE": "Cover",
+      "APP_CONFIG_SOUND": "Suoneria",
+      "APP_CONFIG_ZOOM": "Zoom",
+      "APP_CONFIG_VOLUME": "Volume",
+      "APP_CONFIG_LANGUAGE": "Lingua",
+      "APP_PHONE_CALL_ANONYMOUS": "Skriveni poziv",
+      "APP_CONFIG_MOUSE_SUPPORT": "Controllo Con Mouse",
+      "APP_CONFIG_RESET": "Formatta Telefono",
+      "APP_CONFIG_RESET_CONFIRM": "CONFERMA",
+      "APP_PHONE_CALL": "Poziv",
+      "APP_PHONE_DELETE": "Obrisati",
+      "APP_PHONE_DELETE_ALL": "Obrisati sve.",
+      "APP_PHONE_CANCEL": "annulla",
+      "APP_PHONE_ADD": "Sacuvaj kao novi kontakt",
+      "APP_PHONE_TITLE": "Telefono",
+      "APP_PHONE_MENU_FAVORITES": "Preferiti",
+      "APP_PHONE_MENU_RECENTS": "Recenti",
+      "APP_PHONE_MENU_CONTACTS": "Contatti",
+      "APP_PHONE_ENTER_NUMBER": "Tastierino",
+      "APP_PHONE_NUMBER_HIDDEN": "Numero Privato",
+      "APP_PHONE_NUMBER_UNKNOWN": "Numero Sconosciuto",
+      "APP_BANK_TITLE": "Banca",
+      "APP_BOURSE_TITLE": "Borsa",
+      "APP_CONTACT_TITLE": "Contatti",
+      "APP_CONTACT_NEW": "Nuovo Contatto",
+      "APP_CONTACT_EDIT": "Modifica Contatto",
+      "APP_CONTACT_SAVE": "Salva Contatto",
+      "APP_CONTACT_CANCEL": "Annulla",
+      "APP_CONTACT_DELETE": "Elimina",
+      "APP_CONTACT_LABEL_NAME": "Nome Contatto",
+      "APP_CONTACT_LABEL_NUMBER": "Numero Di Telefono",
+      "APP_MESSAGE_TITLE": "Messaggi",
+      "APP_MESSAGE_NEW_MESSAGE": "Nuova Chat",
+      "APP_MESSAGE_ERASE_CONVERSATION": "Obrisi poziv",
+      "APP_MESSAGE_ERASE_ALL_CONVERSATIONS": "Obrisi sve poruke",
+      "APP_MESSAGE_SEND_GPS": "Invia Posizione GPS",
+      "APP_MESSAGE_SET_GPS": "GPS Lokaciju",
+      "APP_MESSAGE_ZOOM_IMG": "Uvecaj",
+      "APP_MESSAGE_DELETE": "Obrisi",
+      "APP_MESSAGE_SMS": "Messaggio",
+      "APP_MESSAGE_CONTACT_TITLE": "Conttatti",
+      "APP_MESSAGE_CONTRACT_ENTER_NUMBER": "Cerca Numero",
+      "APP_MESSAGE_PLACEHOLDER_ENTER_MESSAGE": "Invia Messaggio",
+      "APP_MESSAGE_MESS_SMS": "SMS",
+      "APP_MESSAGE_MESS_CALL": "Poziv",
+      "APP_MESSAGE_MESS_COPY": "Kopiraj",
+      "APP_MESSAGE_SEND_PHOTO": "Invia Foto",
+      "APP_DARKTCHAT_TITLE": "Dark Web",
+      "APP_DARKTCHAT_NEW_CHANNEL": "Dodaj kanal",
+      "APP_DARKTCHAT_DELETE_CHANNEL": "Obrisi kanal",
+      "APP_DARKTCHAT_CANCEL": "annulla",
+      "APP_DARKTCHAT_PLACEHOLDER_ENTER_MESSAGE": "Unesi poruku",
+      "APP_TWITTER_NAME": "Twitter",
+      "APP_TWITTER_VIEW_TWITTER": "Twitter",
+      "APP_TWITTER_VIEW_TOP_TWEETS": "Top Tweet",
+      "APP_TWITTER_VIEW_TWEETER": "Tweet",
+      "APP_TWITTER_VIEW_SETTING": "Impostazioni",
+      "APP_TWITTER_NEW_ACCOUNT_USERNAME": "Username (min. 4 lettere)",
+      "APP_TWITTER_NEW_ACCOUNT_PASSWORD": "Password (min. 6 lettere)",
+      "APP_TWITTER_NEW_ACCOUNT_PASSWORD_CONFIRM": "Conferma Password",
+      "APP_TWITTER_NEW_ACCOUNT_AVATAR": "URL Personalizato",
+      "APP_TWITTER_PLACEHOLDER_MESSAGE": "Cosa Vuoi Condividere?",
+      "APP_TWITTER_BUTTON_ACTION_TWEETER": "Tweetta",
+      "APP_TWITTER_ACCOUNT_LOGIN": "Login",
+      "APP_TWITTER_ACCOUNT_LOGOUT": "Logout",
+      "APP_TWITTER_ACCOUNT_PARAM": "Impostazioni Account",
+      "APP_TWITTER_ACCOUNT_AVATAR": "Cambia Avatar",
+      "APP_TWITTER_ACCOUNT_CHANGE_PASSWORD": "Cambia Password",
+      "APP_TWITTER_ACCOUNT_NEW": "Nuovo Account",
+      "APP_TWIITER_ACCOUNT_SAVE": "Registracija",
+      "APP_TWIITER_ACCOUNT_CREATE": "Conferma",
+      "APP_TWIITER_ACCOUNT_CANCEL": "Annulla",
+      "APP_TWITTER_ACCOUNT_USERNAME": "Username",
+      "APP_TWITTER_ACCOUNT_PASSWORD": "Password",
+      "APP_TWITTER_NOTIFICATION": "Impostazioni Notifiche",
+      "APP_TWITTER_NOTIFICATION_WHEN": "Impostazioni Notifiche",
+      "APP_TWITTER_NOTIFICATION_ALL": "Tutte Le Notifiche",
+      "APP_TWITTER_NOTIFICATION_MENTION": "Solo Menzioni",
+      "APP_TWITTER_NOTIFICATION_NEVER": "Nessuna Notifica",
+      "APP_TWITTER_NOTIFICATION_SOUND": "Suono Notifica",
+      "APP_TWITTER_NOTIFICATION_SOUND_YES": "Si",
+      "APP_TWITTER_NOTIFICATION_SOUND_NO": "No",
+      "APP_TWITTER_NOTIF_ACCOUNT_CREATE_SUCCESS": "Vas twitter nalog je napravljen.",
+      "APP_TWITTER_NOTIF_ACCOUNT_CREATE_ERROR": "Vas nalog ne moze biti napravljen (korisnicko ime je zauzeto?)",
+      "APP_TWITTER_NOTIF_LOGIN_SUCCESS": "Povezani ste na Twitter.",
+      "APP_TWITTER_NOTIF_LOGIN_ERROR": "Neva�eci racun / lozinka",
+      "APP_TWITTER_NOTIF_AVATAR_SUCCESS": "Vas avatar je promijenjen!",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_SUCCESS": "Vasa sifra je promijenjena.",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_ERROR": "Oops.... Vasa sifra ne moze biti promijenjena.",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_MISS_MATCH": "Sifre se ne poklapaju",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_LENGTH_ERROR": "Sifra je previse kratka",
+      "APP_NOTES": "Note",
+      "APP_BANK_TITLE_BALANCE": "Il Tuo Conto",
+      "APP_BANK_TITLE_ENTER_MONEY": "Uneti kolicinu",
+      "APP_BANK_BUTTON_TRANSFER": "Trasferisci Denaro",
+      "APP_BANK_BUTTON_CANCEL": "Annulla",
+      "APP_DARKTCHAT_NEW_NOTE": "Nuova Nota",
+      "APP_DARKTCHAT_DELETE_NOTE": "Elimina Nota",
+
+      "TIMEAGO": [
+        "trenutno sada",
+        ["%s sekundu", "%s sekunde"],
+        ["%s minutu", "%s minute"],
+        ["%s sat", "%s sata"],
+        ["%s dan", "%s dana"],
+        ["%s sedmica", "%s sedmice"],
+        ["%s mjsesec", "%s mjeseca"],
+        ["%s godina", "%s godine"]
+      ]
+    }
+  }
+}
